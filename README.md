@@ -11,15 +11,6 @@
 
 ---
 
-## 📚 Project Documentation (PDFs)
-
-This project includes three comprehensive generated documents. **You can view them directly in this repository:**
-
-1. 📘 **[Complete Project Report (Beginner-Friendly)](PDFs/Complete_Project_Report.pdf)** - A 50-section detailed walkthrough of the entire project, architecture, and code.
-2. 📗 **[IEEE Academic Paper](PDFs/Healthcare_AI_Medication_Adherence_IEEE_One_Column_Paper.pdf)** - A formal, single-column technical research paper.
-3. 🟢 **[Interview Q&A Guide](PDFs/Interview_QA_Guide.pdf)** - A complete preparation guide with 27 humanized technical/behavioral questions and cross-questions.
-
----
 
 ## 🎯 Business Problem
 

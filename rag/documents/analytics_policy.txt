@@ -1,0 +1,163 @@
+SYNTHETIC HEALTHCARE ANALYTICS POLICY
+Medication Adherence Program Governance
+Healthcare Intelligence Platform — Policy Document v1.0
+(Synthetic document for portfolio demonstration purposes only.)
+
+=======================================================================
+PURPOSE
+=======================================================================
+
+This policy defines governance standards for the Healthcare Analytics
+Platform, including data use, AI/ML model oversight, privacy protections,
+and reporting obligations for the medication adherence program.
+
+=======================================================================
+SECTION 1: DATA GOVERNANCE
+=======================================================================
+
+1.1 DATA SOURCES
+
+Approved data sources for the adherence analytics platform:
+  - Pharmacy dispensing records (primary source for refill analytics)
+  - Electronic health records (EHR) — de-identified prescription data
+  - Patient enrollment and consent records
+  - HCP engagement and visit records
+  - Patient support program interaction logs
+
+1.2 DATA QUALITY STANDARDS
+
+All incoming data must pass the following quality checks:
+  - Completeness: < 5% missing values in critical fields
+  - Uniqueness: No duplicate patient or refill records
+  - Timeliness: Data received within 48 hours of source system update
+  - Validity: All dates, quantities, and identifiers within expected ranges
+  - Consistency: FK relationships validated before database load
+
+1.3 DATA RETENTION
+
+  - Patient adherence records: 7 years
+  - ETL logs and quality reports: 3 years
+  - ML model artifacts: 5 years (all versions retained)
+  - Risk prediction outputs: 2 years
+  - Engagement records: 5 years
+
+=======================================================================
+SECTION 2: AI/ML MODEL GOVERNANCE
+=======================================================================
+
+2.1 MODEL PURPOSE
+
+The risk prediction model is designed exclusively for:
+  - Prioritizing patient outreach for adherence support
+  - Identifying population-level adherence trends
+  - Supporting business planning and resource allocation
+
+The model is NOT designed for:
+  - Clinical diagnosis
+  - Treatment recommendations
+  - Medication dosage decisions
+  - Replacement of clinical judgment
+
+2.2 MODEL VALIDATION REQUIREMENTS
+
+All production models must meet:
+  - Minimum ROC-AUC: 0.70
+  - Minimum Recall for HIGH risk class: 0.65
+  - Maximum disparity in risk scores across demographic groups: < 10%
+  - Independent validation dataset required before deployment
+
+2.3 MODEL VERSION CONTROL
+
+  - All trained models versioned with date and performance metrics
+  - Previous model versions retained for 12 months
+  - Model performance monitored monthly against live data
+  - Retraining required when:
+    * ROC-AUC declines > 5% from baseline
+    * Population adherence patterns shift significantly
+    * New data sources or features become available
+
+2.4 EXPLAINABILITY
+
+  - All patient-level risk scores must include a human-readable top factor
+  - Model explanations must be transparent and auditable
+  - Clinical staff must be trained on model limitations
+
+=======================================================================
+SECTION 3: AI ASSISTANT GOVERNANCE
+=======================================================================
+
+3.1 GENAI ANALYTICS ASSISTANT
+
+The GenAI analytics assistant is permitted to:
+  - Generate SQL queries to retrieve analytical data
+  - Summarize and explain analytical results
+  - Provide business-oriented recommendations based on data
+
+The GenAI assistant is NOT permitted to:
+  - Invent or fabricate database statistics
+  - Make clinical or medical recommendations
+  - Access patient identifiable information without authorization
+  - Execute write, update, or delete operations on the database
+
+3.2 RAG KNOWLEDGE ASSISTANT
+
+The RAG assistant is required to:
+  - Cite source documents for all retrieved information
+  - Explicitly state when the knowledge base does not contain
+    sufficient information to answer a question
+  - Distinguish retrieved evidence from AI-generated reasoning
+
+3.3 SQL SAFETY CONTROLS
+
+All AI-generated SQL must pass safety validation:
+  - Only SELECT statements are permitted
+  - Blocked: DROP, DELETE, UPDATE, INSERT, ALTER, TRUNCATE, GRANT, EXEC
+  - Query timeout: 10 seconds maximum
+  - Result set limit: 10,000 rows maximum
+
+=======================================================================
+SECTION 4: PRIVACY AND COMPLIANCE
+=======================================================================
+
+4.1 SYNTHETIC DATA POLICY
+
+This platform uses 100% synthetic patient data for development,
+testing, and portfolio demonstration. No real patient records are used.
+
+4.2 PRODUCTION DEPLOYMENT REQUIREMENTS
+
+In a production environment, this platform would require:
+  - HIPAA Business Associate Agreement (BAA) with all data processors
+  - De-identification of patient records for analytics
+  - Role-based access controls for all platform users
+  - Audit logging for all data access events
+  - Encryption at rest and in transit for all patient data
+
+=======================================================================
+SECTION 5: REPORTING OBLIGATIONS
+=======================================================================
+
+5.1 PROGRAM PERFORMANCE REPORTING
+
+Monthly reports submitted to program leadership:
+  - Overall population adherence rate (PDC-based)
+  - High-risk patient count and outreach completion
+  - Missed refill event trends
+  - Regional and pharmacy performance rankings
+  - ETL data quality summary
+
+5.2 MODEL PERFORMANCE REPORTING
+
+Quarterly ML model performance reviews:
+  - Model accuracy metrics vs. baseline
+  - Demographic equity analysis
+  - Feature drift analysis
+  - Recommendation for retraining or model refresh
+
+=======================================================================
+DISCLAIMER
+=======================================================================
+This policy is a synthetic document for portfolio demonstration.
+All policies, thresholds, and procedures are illustrative examples.
+This document does not constitute legal or regulatory guidance.
+=======================================================================

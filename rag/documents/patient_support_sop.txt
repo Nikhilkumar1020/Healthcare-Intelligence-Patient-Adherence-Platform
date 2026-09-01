@@ -1,0 +1,180 @@
+PATIENT SUPPORT PROGRAM STANDARD OPERATING PROCEDURE
+Healthcare Intelligence Platform — Synthetic SOP v2.1
+(Synthetic document for portfolio demonstration only.
+ Not a real clinical or operational SOP.)
+
+=======================================================================
+PURPOSE
+=======================================================================
+
+This SOP defines the standard workflows for Patient Support Program
+(PSP) operations, including patient identification, enrollment,
+engagement, and adherence monitoring.
+
+=======================================================================
+SECTION 1: PATIENT IDENTIFICATION AND RISK STRATIFICATION
+=======================================================================
+
+1.1 ELIGIBILITY CRITERIA
+
+Patients are eligible for active support program enrollment when they
+meet one or more of the following criteria:
+  - Diagnosed with a chronic condition on a qualifying medication
+  - Newly prescribed a qualifying medication (first 90 days)
+  - Identified as high-risk by the adherence analytics platform
+  - Self-referred or HCP-referred
+
+1.2 RISK STRATIFICATION
+
+All enrolled patients are stratified using the adherence risk model:
+
+  HIGH RISK (Risk Score >= 0.65):
+  - Immediate outreach within 48 hours
+  - Assigned dedicated case manager
+  - Monthly scheduled contact
+
+  MEDIUM RISK (Risk Score 0.40–0.64):
+  - Outreach within 5 business days
+  - Monthly automated reminders
+  - Quarterly HCP notification
+
+  LOW RISK (Risk Score < 0.40):
+  - Standard 90-day refill reminder schedule
+  - Annual adherence review
+
+1.3 DATA SOURCES FOR RISK IDENTIFICATION
+
+The PSP platform integrates the following data sources:
+  - Pharmacy claims (refill dates, gaps, quantities)
+  - HCP engagement records
+  - Patient demographics (age, insurance, region)
+  - Prior adherence history (missed refill count, trends)
+
+=======================================================================
+SECTION 2: PATIENT ENROLLMENT WORKFLOW
+=======================================================================
+
+STEP 1: ELIGIBILITY VERIFICATION
+  - Confirm patient diagnosis and medication eligibility
+  - Verify insurance coverage and copay requirements
+  - Confirm patient consent for program participation
+
+STEP 2: ONBOARDING
+  - Schedule welcome call within 72 hours of enrollment
+  - Provide patient education materials on medication adherence
+  - Establish preferred contact method (phone, email, SMS, portal)
+  - Set refill reminder preferences
+
+STEP 3: PLATFORM ENROLLMENT
+  - Enter patient into the adherence monitoring system
+  - Assign risk level based on initial assessment
+  - Schedule first engagement based on risk level
+
+=======================================================================
+SECTION 3: ENGAGEMENT PROTOCOLS
+=======================================================================
+
+3.1 REFILL REMINDER PROTOCOL
+
+  HIGH RISK PATIENTS:
+  - Day -7: SMS + Phone call reminder before expected refill
+  - Day 0:  Email confirmation + pharmacy routing
+  - Day +3: Follow-up call if no refill recorded
+  - Day +7: Case manager escalation if still no refill
+  - Day +14: HCP notification if refill not completed
+
+  MEDIUM RISK PATIENTS:
+  - Day -5: SMS reminder
+  - Day 0:  Email reminder
+  - Day +7: Follow-up if refill not recorded
+
+  LOW RISK PATIENTS:
+  - Day -3: SMS reminder only
+
+3.2 MISSED REFILL RESPONSE PROTOCOL
+
+When a missed refill event is detected (actual date > expected + 14 days):
+
+LEVEL 1 RESPONSE (First missed refill):
+  - Patient contact attempt within 2 business days
+  - Barrier assessment (cost, access, tolerability)
+  - Support offered: copay assistance, pharmacy routing, education
+
+LEVEL 2 RESPONSE (Second missed refill within 90 days):
+  - Escalate to case manager
+  - HCP notification of adherence concern
+  - Comprehensive barrier assessment
+  - Consider 90-day supply dispensing
+
+LEVEL 3 RESPONSE (Third+ missed refill or 60+ day gap):
+  - Flag as chronically non-adherent
+  - Urgent HCP notification
+  - Consider patient re-education or regimen review
+  - Document in patient record
+
+=======================================================================
+SECTION 4: REPORTING AND ESCALATION
+=======================================================================
+
+4.1 DAILY MONITORING
+
+  Program managers review daily dashboards for:
+  - New high-risk patients identified
+  - Missed refill events flagged overnight
+  - Overdue engagement contacts
+  - Pharmacy performance alerts
+
+4.2 WEEKLY REPORTING
+
+  Weekly summary reports include:
+  - Total active patients by risk tier
+  - Engagement completion rate
+  - Refill rate for the week
+  - Regional adherence performance
+  - New enrollments vs. dropouts
+
+4.3 MONTHLY REPORTING
+
+  Monthly reports include:
+  - Population adherence trends (MPR, PDC)
+  - Program effectiveness vs. baseline
+  - High-risk patient status review
+  - Regional and pharmacy performance analysis
+  - HCP engagement summary
+
+=======================================================================
+SECTION 5: ESCALATION MATRIX
+=======================================================================
+
+ESCALATION LEVEL 1 (Case Manager):
+  Trigger: Patient has not responded to 2+ contact attempts
+  Action: Direct outreach, barrier resolution support
+
+ESCALATION LEVEL 2 (Medical Affairs / HCP):
+  Trigger: 60+ day refill gap, patient unresponsive
+  Action: HCP notification letter/portal message
+
+ESCALATION LEVEL 3 (Program Director):
+  Trigger: Patient requests opt-out or program failure
+  Action: Exit interview, document root cause
+
+=======================================================================
+SECTION 6: QUALITY ASSURANCE
+=======================================================================
+
+6.1 Data Quality:
+  - All source data validated within 24 hours of receipt
+  - Rejected records reviewed weekly
+  - Data quality KPIs tracked monthly
+
+6.2 Engagement Quality:
+  - Random sample call audits (10% of contacts monthly)
+  - Patient satisfaction surveys quarterly
+  - Engagement response rate benchmarks reviewed monthly
+
+=======================================================================
+DISCLAIMER
+=======================================================================
+This SOP is a synthetic document for portfolio demonstration purposes.
+It does not represent any real patient support program or clinical policy.
+=======================================================================

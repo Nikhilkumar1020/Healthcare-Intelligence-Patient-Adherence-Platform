@@ -1,0 +1,75 @@
+{
+  "model_name": "champion",
+  "version": "v20260901",
+  "saved_at": "2026-09-01T20:32:57.512814",
+  "model_type": "random_forest",
+  "feature_cols": [
+    "age",
+    "age_group",
+    "is_senior",
+    "region_encoded",
+    "insurance_encoded",
+    "has_chronic",
+    "total_refills",
+    "missed_refills",
+    "adherence_pct",
+    "miss_rate_pct",
+    "days_since_last_refill",
+    "avg_refill_gap",
+    "max_refill_gap",
+    "stddev_gap",
+    "gap_trend",
+    "early_avg_gap",
+    "recent_avg_gap",
+    "total_engagements",
+    "engagements_30d",
+    "engagements_90d",
+    "responded_count",
+    "engagement_response_rate",
+    "total_prescriptions",
+    "avg_refills_allowed",
+    "days_since_enrollment"
+  ],
+  "target_col": "future_refill_dropoff",
+  "metrics": {
+    "model_name": "Random Forest",
+    "accuracy": 0.8805,
+    "precision": 0.5535,
+    "recall": 0.6447,
+    "f1_score": 0.5956,
+    "roc_auc": 0.9023,
+    "confusion_matrix": [
+      [
+        1585,
+        142
+      ],
+      [
+        97,
+        176
+      ]
+    ],
+    "tn": 1585,
+    "fp": 142,
+    "fn": 97,
+    "tp": 176,
+    "feature_importances": {
+      "total_prescriptions": 0.23037129820945965,
+      "days_since_last_refill": 0.21409430061924722,
+      "gap_trend": 0.11416823855854571,
+      "recent_avg_gap": 0.06177015713552033,
+      "total_refills": 0.03808482844837575,
+      "engagements_90d": 0.037500007010842516,
+      "avg_refill_gap": 0.037347080640490034,
+      "missed_refills": 0.029279814174019887,
+      "max_refill_gap": 0.027745676948251058,
+      "engagements_30d": 0.023322652194008277,
+      "early_avg_gap": 0.022568178166648595,
+      "avg_refills_allowed": 0.02210580966236386,
+      "stddev_gap": 0.018631688988373682,
+      "responded_count": 0.01696058385854493,
+      "days_since_enrollment": 0.015844646725175195
+    }
+  },
+  "n_train": 8000,
+  "n_test": 2000
+}

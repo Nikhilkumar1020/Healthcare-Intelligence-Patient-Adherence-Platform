@@ -1,0 +1,171 @@
+MEDICATION INFORMATION REFERENCE GUIDE
+Common Chronic Disease Medications — Adherence Considerations
+Healthcare Intelligence Platform — Synthetic Reference v1.0
+(Synthetic document for portfolio demonstration. Not medical advice.)
+
+=======================================================================
+PURPOSE
+=======================================================================
+
+This reference guide summarizes adherence-related considerations for
+common medication classes used in chronic disease management programs.
+It is designed to help patient support representatives understand
+medication-specific adherence challenges.
+
+=======================================================================
+SECTION 1: ANTIDIABETIC MEDICATIONS
+=======================================================================
+
+METFORMIN (Biguanide)
+Primary Use: Type 2 Diabetes Management
+Dosage Forms: 500mg, 1000mg tablets; extended-release available
+Refill Pattern: Monthly or 90-day supply
+
+Adherence Considerations:
+  - GI side effects (nausea, diarrhea) are common in the first 2 weeks
+    and are the most frequent cause of early discontinuation
+  - Extended-release formulation reduces GI side effects by ~40%
+  - Low out-of-pocket cost (generic widely available) improves adherence
+  - Patients often stop when they perceive blood sugar is "controlled"
+  - Education on long-term benefits of continued use is critical
+
+Common Adherence Barriers:
+  - Side effect intolerance (especially in first month)
+  - Belief that medication is no longer needed when symptoms improve
+  - Prescription changes (dose adjustments) causing confusion
+
+GLIPIZIDE (Sulfonylurea)
+Primary Use: Type 2 Diabetes (insulin secretagogue)
+Refill Pattern: Monthly
+
+Adherence Considerations:
+  - Hypoglycemia risk if dose missed and then doubled
+  - Patients should be educated on proper refill timing
+  - Adherence declines if hypoglycemic episodes occur
+
+=======================================================================
+SECTION 2: ANTIHYPERTENSIVE MEDICATIONS
+=======================================================================
+
+LISINOPRIL (ACE Inhibitor)
+Primary Use: Hypertension, Heart Failure, Post-MI
+Refill Pattern: Monthly or 90-day supply
+
+Adherence Considerations:
+  - Dry cough (10–15% of patients) is the most common cause
+    of discontinuation; patients should be counseled on alternatives
+  - Asymptomatic nature of hypertension is a major barrier
+    (patients feel well and see no immediate benefit from continued use)
+  - Generic availability improves cost-related adherence
+
+AMLODIPINE (Calcium Channel Blocker)
+Primary Use: Hypertension, Angina
+Refill Pattern: Monthly
+
+Adherence Considerations:
+  - Very well tolerated; peripheral edema may occur
+  - Long half-life (30-50 hours) provides some buffer for missed doses
+  - Lower adherence risk compared to twice-daily medications
+
+LOSARTAN (ARB)
+Primary Use: Hypertension, Diabetic Nephropathy
+Refill Pattern: Monthly
+
+Adherence Considerations:
+  - No cough (preferred over ACE inhibitors for cough-intolerant patients)
+  - Adherence patterns similar to other once-daily antihypertensives
+  - Education on asymptomatic benefit is key
+
+=======================================================================
+SECTION 3: LIPID-LOWERING MEDICATIONS
+=======================================================================
+
+ATORVASTATIN / ROSUVASTATIN (HMG-CoA Reductase Inhibitors / Statins)
+Primary Use: Hyperlipidemia, Cardiovascular Risk Reduction
+Refill Pattern: Monthly or 90-day supply
+
+Adherence Considerations:
+  - Myalgia (muscle pain) is the most common side effect causing
+    discontinuation (reported in 5–10% of patients)
+  - Patients must understand that statins are long-term medications
+    and that stopping increases cardiovascular risk
+  - Annual lipid panels help reinforce medication benefit
+  - 90-day supply dispensing significantly improves statin PDC
+  - Lower adherence in patients without prior cardiovascular events
+    (primary vs. secondary prevention gap)
+
+=======================================================================
+SECTION 4: CARDIOVASCULAR MEDICATIONS
+=======================================================================
+
+METOPROLOL (Beta-Blocker)
+Primary Use: Hypertension, Heart Failure, Post-MI, Arrhythmia
+Refill Pattern: Monthly (twice-daily dosing)
+
+Adherence Considerations:
+  - Fatigue and bradycardia may cause early discontinuation
+  - Abrupt discontinuation is clinically dangerous (rebound hypertension)
+  - Patient education on dangers of sudden stopping is critical
+  - Once-daily extended-release formulation (metoprolol succinate)
+    has better adherence than twice-daily tartrate formulation
+
+WARFARIN (Anticoagulant)
+Primary Use: Atrial Fibrillation, DVT/PE prevention
+Refill Pattern: Monthly (requires INR monitoring)
+
+Adherence Considerations:
+  - High-risk medication; missed doses or irregular adherence
+    can result in stroke or bleeding events
+  - INR monitoring requirement creates touch points for adherence support
+  - Complex dietary and drug interactions require ongoing education
+  - DOACs (newer anticoagulants) have replaced warfarin in many cases
+    due to better adherence profiles and fewer monitoring requirements
+
+=======================================================================
+SECTION 5: RESPIRATORY MEDICATIONS
+=======================================================================
+
+ALBUTEROL (Short-Acting Beta-2 Agonist / SABA)
+Primary Use: Asthma, COPD (rescue inhaler)
+Refill Pattern: As needed; monitoring for overuse is important
+
+Adherence Considerations:
+  - Overuse (> 2 rescue inhalers/month) is a red flag for
+    inadequate disease control requiring controller therapy review
+  - Under-use may reflect avoidance due to cost or access barriers
+  - Proper inhaler technique affects medication delivery
+
+FLUTICASONE (Inhaled Corticosteroid / ICS)
+Primary Use: Asthma, COPD controller therapy
+Refill Pattern: Monthly
+
+Adherence Considerations:
+  - Asymptomatic patients often stop ICS therapy prematurely
+  - Oral thrush is a manageable side effect that can cause discontinuation
+    (rinsing mouth after use prevents this)
+  - 90-day supply and adherence programs significantly improve ICS PDC
+
+=======================================================================
+SECTION 6: ANTIDEPRESSANTS
+=======================================================================
+
+SERTRALINE / ESCITALOPRAM (SSRIs)
+Primary Use: Major Depressive Disorder, Anxiety Disorders
+Refill Pattern: Monthly
+
+Adherence Considerations:
+  - Delayed onset (2–4 weeks to full effect) is a major barrier;
+    patients may discontinue early believing the medication does not work
+  - Initial side effects (nausea, insomnia) often resolve within 2 weeks
+  - Stigma around mental health treatment can affect refill behavior
+  - Patients should be counseled never to abruptly discontinue
+  - Relapse risk is highest in the first 6 months of treatment
+
+=======================================================================
+DISCLAIMER
+=======================================================================
+This document is a synthetic reference for portfolio demonstration.
+All medication information is general and illustrative.
+This document does not constitute medical or pharmaceutical advice.
+Patients should always consult their healthcare provider.
+=======================================================================
